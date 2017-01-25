@@ -1,5 +1,5 @@
 {
-  "name": "Gridflex",
+  "name": "gridflex",
   "filename": "gridflex.css",
   "description": "Grid system with flexbox",
   "version": "1.0.0",
@@ -8,12 +8,20 @@
     "type": "git",
     "url": "https://github.com/GA-MO/gridflex.git"
   },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/GA-MO/gridflex.git",
+    "basePath": "/styles/",
+    "files": [
+      "gridflex.css"
+    ]
+  },
   "license": "MIT",
   "keywords": [
     "gridflex",
     "grid",
     "flexbox",
-    "css grid",
-    "html grid"
+    "css",
+    "html"
   ]
 }
